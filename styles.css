@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgba(221, 221, 240, 0.678);
+    font-family: sans-serif;
+}
+.container {
+    border: 11px solid rgb(175, 175, 192);
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, rgba(57, 57, 255, 0.859)20%, rgba(28, 28, 255, 0.892) 100%);
+    padding: 40px 100px 50px;
+    position: absolute;
+}
+.container .head h1 {
+    color: white;
+    font-size: 20px;
+}
+.container .head p {
+    font-size: 10px;
+    color: white;
+    margin-top: -5px;
+}
+input[type="email"] {
+    padding: 10px 0 10px 15px;
+    width: 100%;
+    max-width: 235px;
+    background-color: rgba(255, 255, 255, 0.425);
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    top: 110px;
+    right: 100px;
+}
+input::placeholder {
+    color: white;
+}
+.container .email button {
+    position: absolute;
+    top: 113px;
+    right: 105px;
+    padding: 7px 9px;
+    border: 1px;
+    border-radius: 50px;
+}
+.container .email {
+    padding-bottom: 40px;
+}
+.container .images .img1 {
+    width:50px;
+    border: 5px solid white;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: 60px;
+}
+.container .images .img2 {
+    width:50px;
+    border: 5px solid white;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: 130px;
+}
+.container .images .img3 {
+    width:50px;
+    border: 5px solid white;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: 200px;
+}
+.container .images .img4 {
+    width:50px;
+    border: 5px solid white;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: 270px;
+}
+.container .images .img5 {
+    width:50px;
+    border: 5px solid white;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: 340px;
+}
